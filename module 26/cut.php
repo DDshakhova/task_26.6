@@ -85,7 +85,8 @@ foreach ($html as $key => $row) {
         if ($key == 0)
         continue;
         echo htmlspecialchars('<' . $val);
-    echo '<br>';}
+        echo '<br>';
+      }
     }
 }
 
